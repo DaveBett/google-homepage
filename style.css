@@ -3,11 +3,13 @@
   margin-top:89px;
   text-align: center;
 }
+
 .searchbar {
     text-align: center;
     -webkit-appearance: none;
 }
-ul {
+
+.toplist ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,11 +20,11 @@ ul {
   width:100%;
 }
 
-li {
+.toplist li {
   float: left;
 }
 
-li a {
+.toplist li a {
   display: block;
   color: white;
   text-align: center;
@@ -30,7 +32,32 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.toplist li a:hover {
   background-color: #111;
 }
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.footer li {
+    float: center;
+  }
+
+.footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+  }
+  
+.footer li a:hover {
+    background-color: #111;
+  }
